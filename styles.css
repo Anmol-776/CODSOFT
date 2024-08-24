@@ -1,0 +1,406 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    background-image:url("https://img.freepik.com/premium-vector/minimal-dark-blue-black-abstract-modern-background-design-design-poster-template-web-backdrop-banner-brochure-website-flyer-landing-page-presentation-certificate-webinar_181182-34654.jpg");
+    background-size: 100% 100%;
+}
+
+
+header {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/013/272/non_2x/dark-purple-template-with-lines-vector.jpg"); 
+    color: #fff;
+    padding: 5em 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15 10em;
+}
+
+nav h1 {
+    font-size: 4.4em;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin-left: 5em;
+    font-weight:bold;
+    color:white
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration:wavy;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+ 
+#hero {
+    background-image:url("https://th.bing.com/th/id/OIP.WFZ3HOG6IvS4K-4ez8CNrgHaDo?w=1504&h=738&rs=1&pid=ImgDetMain");
+    background-repeat:no-repeat;
+    max-height: max-content;
+    color: #fff;
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image within the element */
+    background-attachment: fixed; /* Fix the image in place while scrolling */
+    color: #fff; /* Set text color to white for contrast */
+    padding: 3em 1em; /* Add padding around the text */
+    text-align: center; /* Center-align the text */
+    position: relative; /* Ensure proper positioning context for pseudo-elements */
+    min-height: 300px; 
+    font-size: 1.7em;
+}
+
+#hero h2 {
+    font-size: 1.0em;
+    margin-bottom: 0.5em;
+    color:white
+}
+
+#hero p {
+    font-size: 1.0em;
+    margin-bottom: 1em;
+    color:white
+}
+
+.btn {
+    display: inline-block;
+    background: #c10505;
+    color: #ffffff;
+    text-decoration: solid;
+    padding: 1em 3em;
+    
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background: #32f54c;
+}
+ 
+section {
+    padding: 2em 10em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.col {
+    flex: 1 1 calc(33.333% - 1.5em);
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #754ae2;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background: #38046561;
+}
+
+ 
+footer {
+    background: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+@media (max-width: 768px) {
+    .col {
+        flex: 1 1 calc(50% - 1.5em); 
+    }
+}
+
+@media (max-width: 480px) {
+    .col {
+        flex: 1 1 100%; 
+    }
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #4a90e2;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background: #357abd;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.contact-info p {
+    font-size: 2em;
+    color: #333;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-size:2em;
+}
+#cta {
+    background-image:url("https://static.vecteezy.com/system/resources/previews/009/013/272/non_2x/dark-purple-template-with-lines-vector.jpg");
+    color: #fff; /* White text for contrast */
+    padding: 3em 1em;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 2em 0; /* Margin for spacing above and below */
+}
+
+#cta h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 0.5em; /* Space below the heading */
+}
+
+#cta p {
+    font-size: 1.2em; /* Slightly larger font for emphasis */
+    margin-bottom: 1.5em; /* Space below the paragraph */
+    line-height: 1.4; /* Improved line spacing for readability */
+}
+
+#cta .btn {
+    background: #fff; /* White background for the button */
+    color: #111112; /* Blue text for the button */
+    padding: 0.8em 2em; /* Padding for button size */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 1.1em; /* Slightly larger font size for readability */
+    display: inline-block; /* Make the link behave like a button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+}
+
+#cta .btn:hover {
+    background: #ddd; /* Light grey background on hover */
+    color: #333; /* Darker text color on hover */
+}
+/* Style for the features section */
+#features {
+    padding: 2em 1em;
+    background-color: #f9f9f9;
+    background-image: url("https://www.udacity.com/blog/wp-content/uploads/2021/03/Advanced-AI-Courses_Blog.jpeg");
+    
+}
+
+.features-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 2em; /* Space below the image */
+}
+
+.features-image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+}
+
+/* Style for the container and columns within the features section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8em;
+}
+
+.col {
+    flex: 1 1 calc(33.333% - 1.5em);
+    background: #150b0b;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#benefits {
+    padding: 2em 1em;
+    background-color: #f9f9f9;
+    background-image: url("https://www.udacity.com/blog/wp-content/uploads/2021/03/Advanced-AI-Courses_Blog.jpeg");
+    
+}
+
+.benefits-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 2em; /* Space below the image */
+}
+
+.benefits-image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+}
+
+/* Style for the container and columns within the features section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8em;
+}
+
+.col {
+    flex: 1 1 calc(33.333% - 1.5em);
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#testimonials {
+    padding: 2em 1em;
+    background-color: #f9f9f9;
+    background-image: url("https://www.udacity.com/blog/wp-content/uploads/2021/03/Advanced-AI-Courses_Blog.jpeg");
+    
+}
+
+.testimonials-image {
+    text-align: center; /* Center the image */
+    margin-bottom: 2em; /* Space below the image */
+}
+
+.benefits-image img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Rounded corners for the image */
+    color:black
+}
+
+/* Style for the container and columns within the features section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color:black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8em;
+}
+
+.col {
+    flex: 1 1 calc(33.333% - 1.5em);
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color:white
+   
+
+}
+p{
+    color:black;
+    flex: 1 1 calc(33.333% - 1.5em);
+    background: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
